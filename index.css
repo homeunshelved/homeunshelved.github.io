@@ -18,8 +18,7 @@
         #selector {
             font-family: 'Roboto Slab', serif;
             font-size: 200%;
-            text-align: center;
-            padding-top: 5%; 
+            text-align: center; 
         }
         #video {
             padding: 0 10% 0 10%;
