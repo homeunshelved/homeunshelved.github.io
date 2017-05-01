@@ -24,6 +24,16 @@
             position: relative;
             top: -0.4em;
         }
+	@media only screen and (max-width:650px) {
+            .listThumb {
+                width:30%;
+            }
+        }
+        @media only screen and (min-width:651px) {
+            .mobileNavlist {
+                display: none;
+            }
+        }
     </style>
 <title>Home Unshelved</title>
 </head>
@@ -42,6 +52,19 @@
         <area shape="poly" coords="680,714,665,520,871,484,878,680,781,755" href="#" data-toggle="modal" data-target="#myModal4"/>
         <area shape="poly" coords="748,791,1088,477,1461,568,1157,991,919,886" href="#" data-toggle="modal" data-target="#myModal5"/>
         </map></a>
+	    <ul style="list-style:none;padding-top:15px;" class="mobileNavlist">
+        	<li style="text-align:center;">*If you are using a mobile device, please click the images below to explore the exhibit.*</li>
+        
+        	<li><a href="#" data-toggle="modal" data-target="#myModal"><img class="listThumb" src="https://homeunshelved.github.io/pages/photos/GB_1.jpg">&nbsp;&nbsp;&nbsp;Gingerbread Boy</a></li><br>
+        
+        	<li><a href="#" data-toggle="modal" data-target="#myModal2"><img class="listThumb" src="https://homeunshelved.github.io/pages/photos/CC_1.jpg">&nbsp;&nbsp;&nbsp;Candy Container</a></li><br>
+        
+       		<li><a href="#" data-toggle="modal" data-target="#myModal3"><img class="listThumb" src="#">&nbsp;&nbsp;&nbsp;Set of Cards</a></li><br>
+        
+        	<li><a href="#" data-toggle="modal" data-target="#myModal4"><img class="listThumb" src="https://homeunshelved.github.io/pages/photos/IMG_3029.JPG">&nbsp;&nbsp;&nbsp;Leather Notebook</a></li><br>
+        
+        	<li><a href="#" data-toggle="modal" data-target="#myModal5"><img class="listThumb" src="https://homeunshelved.github.io/pages/photos/RJBanner.jpg">&nbsp;&nbsp;&nbsp;Recipe Journal</a></li>
+    			</ul>
             <footer style="text-align:center; position:static; width:100%; height:2%; bottom:0;"><hr><p style="color:black; margin:0;"><br>Developed by (<em>insert names here</em>).</p></footer>
     </div>
         <script src="https://homeunshelved.github.io/pages/jquery.rwdImageMaps.min.js"></script>
