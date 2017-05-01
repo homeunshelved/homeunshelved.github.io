@@ -24,11 +24,6 @@
             font-family: 'PT Sans', sans-serif;
             text-align: center;
         }
-        a:hover {
-            background-color: black;
-            color: whitesmoke;
-            outline-color: black;
-        }
         footer {
             font-family: 'PT Sans', sans-serif;
             text-align: center;
