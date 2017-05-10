@@ -32,6 +32,11 @@
             height: 2%;
             position:relative;
         }
+@media only screen and (max-width:650px) {
+            #video iframe {
+                width:100%;
+            }
+        }
 /*firstPage.html*/
 #introtext {
     font-family: 'PT Sans', sans-serif;
