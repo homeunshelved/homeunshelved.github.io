@@ -20,6 +20,7 @@
         if (navigator.userAgent.search("Firefox") >= 0 && navigator.userAgent.search("Chrome") < 0) 
 {
    document.getElementsByTagName("BODY")[0].className += " firefox";
+}
     </script>
     <style>
 	    p, li, pre {
@@ -67,13 +68,13 @@
         body.firefox sup{
             display:none;
         }
-        body.firefox .mobileNotes {
+        body.firefox embed .mobileNotes {
             display: inline-block;
         }
         body.ie sup{
             display:none;
         }
-        body.ie .mobileNotes {
+        body.ie embed .mobileNotes {
             display: inline-block;
         }
     </style>
