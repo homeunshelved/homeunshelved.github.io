@@ -12,16 +12,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src=""></script>
-    <script>
-        if (navigator.userAgent.search("Internet Explorer") >= 0 && navigator.userAgent.search("Chrome") < 0) 
-{
-   document.getElementsByTagName("BODY")[0].className += " ie";
-}
-        if (navigator.userAgent.search("Firefox") >= 0 && navigator.userAgent.search("Chrome") < 0) 
-{
-   document.getElementsByTagName("BODY")[0].className += " firefox";
-}
-    </script>
     <style>
 	    p, li, pre {
 	    font-family:'PT Sans', sans-serif;
@@ -82,7 +72,16 @@
 </head>
     
     <body>
-
+<script>
+        if (navigator.userAgent.search("Internet Explorer") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+{
+   document.getElementsByTagName("BODY")[0].className += " ie";
+}
+        if (navigator.userAgent.search("Firefox") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+{
+   document.getElementsByTagName("BODY")[0].className += " firefox";
+}
+    </script>
 <!--BEGIN MODAL-->
 <div id="containerDiv" style="height:100%;overflow:scroll;">
     <h1 style="text-align:center;">Home Unshelved</h1><h3 style="text-align:center;">Click on an object to explore the exhibit.</h3>
